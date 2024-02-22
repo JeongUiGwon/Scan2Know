@@ -1,5 +1,3 @@
-const LostViewer = () => {
+export default function LostViewer() {
   return <h2>Hi</h2>;
 };
-
-export default LostViewer;

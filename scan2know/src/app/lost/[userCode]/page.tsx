@@ -5,6 +5,5 @@ export default function LostUserCodePage({
 }: {
   params: { userCode: string };
 }) {
-  const userCode = params.userCode;
-  return <LostViewerContainer userCode={userCode} />;
+  return (<LostViewerContainer userCode={params.userCode} />);
 }
